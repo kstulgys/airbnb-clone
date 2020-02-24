@@ -9,19 +9,32 @@
   "dependencies": {
     "@apollo/react-hooks": "3.0.0",
     "@apollo/react-ssr": "3.0.0",
+    "@chakra-ui/core": "^0.5.2",
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
     "apollo-cache-inmemory": "1.6.3",
     "apollo-client": "2.6.4",
     "apollo-link-http": "1.5.15",
+    "axios": "^0.19.2",
+    "emotion-theming": "^10.0.27",
+    "google-map-react": "^1.1.6",
     "graphql": "^14.0.2",
     "graphql-tag": "2.10.1",
     "isomorphic-unfetch": "^3.0.0",
+    "leaflet": "^1.6.0",
     "next": "latest",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-leaflet": "^2.6.1",
+    "react-leaflet-universal": "^2.1.0",
+    "react-map-gl": "^5.2.2",
+    "unsplash-js": "^6.0.0"
   },
   "license": "ISC",
   "devDependencies": {
-    "babel-plugin-graphql-tag": "^2.5.0"
+    "@types/react": "^16.9.19",
+    "babel-plugin-graphql-tag": "^2.5.0",
+    "typescript": "^3.7.5"
   }
 }
